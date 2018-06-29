@@ -1,0 +1,86 @@
+@font-face{
+	font-family: 'iransans';
+	src: url(../fonts/iransans/eot/IRANSansWeb.eot) format('eot'),
+		url(../fonts/iransans/ttf/IRANSansWeb.ttf) format('ttf'),
+		url(../fonts/iransans/woff/IRANSansWeb.woff) format('woff');
+}
+
+body{
+    direction: rtl;
+    font-family: iransans;
+    font-size: 18px;
+}
+/*Navbar Style*/
+nav ul{
+    float: right;
+    padding-right: 0;
+}
+.navbar-brand{
+    margin-left: 15px;
+}
+/*header  Style*/
+.intro{
+    background-image: url('../images/back1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 800px;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.intro h2{
+    color: rgb(163, 7, 142);
+}
+
+.intro img{
+    width: 100px;
+    height: 150px;
+}
+/*main panel Style*/
+.post0{
+    padding-top: 30px;
+}
+.post0 p{
+    text-indent: 18px;
+    line-height: 2;
+}
+.post1{
+    padding-top: 30px;
+}
+.post1 p{
+    text-indent: 18px;
+    line-height: 2;
+}
+.para1{
+    color: rgb(21, 14, 128);
+}
+.para2{
+    color: rgb(21, 14, 128);
+}
+.para3{
+    color: rgb(21, 14, 128);
+}
+.para4{
+    color: rgb(21, 14, 128);
+}
+section img{
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+.post2{
+    margin-top: 15px;
+    padding-top: 30px;
+}
+.post2 p{
+    text-indent: 18px;
+    line-height: 2;
+}
+/*Footer Style*/
+footer{
+    background-color: black;
+    margin-top: 10px;
+    color: white;
+    padding-top: 15px;
+}
